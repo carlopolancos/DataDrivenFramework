@@ -1,0 +1,48 @@
+2026-01-15 11:26:22 INFO  OpenAccountTest:55 - --- New Test Suite Execution Started ---
+2026-01-15 11:26:22 INFO  OpenAccountTest:66 - OR properties file loaded
+2026-01-15 11:26:33 INFO  OpenAccountTest:82 - Launching Chrome Browser
+2026-01-15 11:26:33 INFO  BankManagerLoginTest:82 - Launching Chrome Browser
+2026-01-15 11:26:34 INFO  AddCustomerTest:82 - Launching Chrome Browser
+2026-01-15 11:26:34 INFO  OpenAccountTest:82 - Launching Chrome Browser
+2026-01-15 11:26:34 INFO  AddCustomerTest:87 - Launching Firefox Browser
+2026-01-15 11:26:34 INFO  LoginTest:87 - Launching Firefox Browser
+2026-01-15 11:26:34 INFO  UserRegTest:82 - Launching Chrome Browser
+2026-01-15 11:26:38 INFO  BankManagerLoginTest:121 - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2026-01-15 11:26:39 INFO  OpenAccountTest:121 - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2026-01-15 11:26:39 INFO  BankManagerLoginTest:133 - Clicking on element bmlBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button)
+2026-01-15 11:26:39 INFO  AddCustomerTest:121 - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2026-01-15 11:26:39 INFO  OpenAccountTest:133 - Clicking on element bmlBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button)
+2026-01-15 11:26:39 INFO  AddCustomerTest:133 - Clicking on element bmlBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button)
+2026-01-15 11:26:39 INFO  BankManagerLoginTest:174 - Found element addCustomerBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1))
+2026-01-15 11:26:40 INFO  OpenAccountTest:133 - Clicking on element openAccountBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2))
+2026-01-15 11:26:40 INFO  AddCustomerTest:133 - Clicking on element addCustomerBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1))
+2026-01-15 11:26:40 INFO  AddCustomerTest:146 - Typing on element firstNameInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input) and entered the value: Shiso
+2026-01-15 11:26:40 INFO  OpenAccountTest:159 - Selecting on element customerSelect_CSS(#userSelect) and selected the value: Ron Weasly
+2026-01-15 11:26:40 INFO  OpenAccountTest:159 - Selecting on element currencySelect_CSS(#currency) and selected the value: Pound
+2026-01-15 11:26:41 INFO  OpenAccountTest:121 - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2026-01-15 11:26:41 INFO  OpenAccountTest:133 - Clicking on element processBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button)
+2026-01-15 11:26:41 INFO  AddCustomerTest:146 - Typing on element lastNameInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input) and entered the value: Sagun
+2026-01-15 11:26:41 INFO  OpenAccountTest:133 - Clicking on element bmlBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button)
+2026-01-15 11:26:41 INFO  AddCustomerTest:146 - Typing on element postCodeInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input) and entered the value: 120DK1E29
+2026-01-15 11:26:42 INFO  AddCustomerTest:133 - Clicking on element submitCustomerBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button)
+2026-01-15 11:26:42 INFO  OpenAccountTest:133 - Clicking on element openAccountBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2))
+2026-01-15 11:26:42 INFO  UserRegTest:121 - Navigated to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&dsh=S-64759537%3A1768352715286855&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AXbMIuDRz0eCxl0T5xhG3ZP9Q_Ix1clmPTtdO3Ni8RR939X2fGpEhQC1EqHRdYjsA3dAttvRJua7kw&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2026-01-15 11:26:42 INFO  UserRegTest:146 - Typing on element username(#identifierId) and entered the value: carlo.polancos@awsys-i.com
+2026-01-15 11:26:42 INFO  OpenAccountTest:159 - Selecting on element customerSelect_CSS(#userSelect) and selected the value: Hermoine Granger
+2026-01-15 11:26:42 INFO  OpenAccountTest:159 - Selecting on element currencySelect_CSS(#currency) and selected the value: Rupee
+2026-01-15 11:26:43 INFO  OpenAccountTest:133 - Clicking on element processBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button)
+2026-01-15 11:26:51 INFO  LoginTest:121 - Navigated to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&dsh=S-64759537%3A1768352715286855&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AXbMIuDRz0eCxl0T5xhG3ZP9Q_Ix1clmPTtdO3Ni8RR939X2fGpEhQC1EqHRdYjsA3dAttvRJua7kw&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2026-01-15 11:26:51 INFO  LoginTest:146 - Typing on element username(#identifierId) and entered the value: carlo.polancos@awsys-i.com
+2026-01-15 11:26:52 INFO  UserRegTest:87 - Launching Firefox Browser
+2026-01-15 11:26:55 INFO  LoginTest:82 - Launching Chrome Browser
+2026-01-15 11:26:57 INFO  LoginTest:121 - Navigated to: https://www.google.com/
+2026-01-15 11:26:57 INFO  LoginTest:146 - Typing on element searchBox(#APjFqb) and entered the value: Hello Playwright
+2026-01-15 11:26:58 INFO  UserRegTest:121 - Navigated to: https://www.google.com/
+2026-01-15 11:26:59 INFO  UserRegTest:146 - Typing on element searchBox(#APjFqb) and entered the value: Hello Playwright
+2026-01-15 11:27:12 INFO  AddCustomerTest:121 - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2026-01-15 11:27:12 INFO  AddCustomerTest:133 - Clicking on element bmlBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button)
+2026-01-15 11:27:13 INFO  AddCustomerTest:133 - Clicking on element addCustomerBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1))
+2026-01-15 11:27:13 INFO  AddCustomerTest:146 - Typing on element firstNameInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input) and entered the value: Master
+2026-01-15 11:27:13 INFO  AddCustomerTest:146 - Typing on element lastNameInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input) and entered the value: Ungas
+2026-01-15 11:27:13 INFO  AddCustomerTest:146 - Typing on element postCodeInput_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input) and entered the value: G359J8AA
+2026-01-15 11:27:13 INFO  AddCustomerTest:133 - Clicking on element submitCustomerBtn_CSS(body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button)
