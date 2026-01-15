@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Customer Suite" >
+    <!--       parallel="tests">-->
+    <listeners>
+        <listener class-name="extentListeners.ExtentListeners"/>
+    </listeners>
+
+    <test name="Add Customer Test">
+        <classes>
+            <class name="suite.customer.testCases.AddCustomerTest"/>
+        </classes>
+    </test>
+
+    <test name="Open Account Test">
+        <classes>
+            <class name="suite.customer.testCases.OpenAccountTest"/>
+        </classes>
+    </test>
+</suite>
