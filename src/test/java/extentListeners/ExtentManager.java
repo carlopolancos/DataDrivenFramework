@@ -17,6 +17,7 @@ public class ExtentManager {
 
     public static ExtentReports createInstance(String filename) {
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter(filename);
+        htmlReporter.config().setOfflineMode(true);
         htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setDocumentTitle(filename);
         htmlReporter.config().setReportName("Automation Test Results");
