@@ -36,6 +36,6 @@ public class ExtentManager {
     public static void captureScreenshot() throws IOException {
         Date d = new Date();
         fileName = d.toString().replace(":", " ").replace(" ", "_") + ".jpg";
-        BaseTest.getPage().screenshot(new Page.ScreenshotOptions().setPath(Paths.get("./reports/" + fileName)));
+        BaseTest.getPage().screenshot(new Page.ScreenshotOptions().setFullPage(true).setPath(Paths.get("./reports/" + fileName)));
     }
 }
