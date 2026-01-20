@@ -24,7 +24,7 @@ public class BaseTest {
     public BrowserContext browserContext;
     public Page page;
 
-    public static Properties OR = new Properties();
+    private static Properties OR = new Properties();
     private static FileInputStream fis;
     private final Logger log = LogManager.getLogger(this.getClass());
 
