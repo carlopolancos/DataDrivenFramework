@@ -1,0 +1,17 @@
+-run Jenkins (java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war)
+-install plugin (maven integration, html publisher, 
+-Tools add Java and Maven Installation from System Variables
+
+-maven project type + name,
+
+-GitHub (/)
+-Source Code Management - git, Branch main
+
+-Build Trigger - Poll SCM (* * * * *)
+
+-Goals and options - clean test
+
+-Add post-build section - Publish HTML reports
+--directory (reports/)
+--index pages (*.html)
+--report title (Extent Reports)
